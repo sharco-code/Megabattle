@@ -7,14 +7,11 @@ string player01 = "Jugador";
 string enemy01 = "Dragon";
 int boxxy = 16;
 
-void game(), startmenu();
+void game();
 
 int main(int argc, char *argv[]) {
   game();
   return 0;
-}
-
-void startmenu() {
 }
 
 void game() {
